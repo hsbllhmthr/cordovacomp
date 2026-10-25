@@ -1,13 +1,13 @@
 import { companyData } from '@/data/company';
 
-export function getLocalBusinessSchema() {
+export function getLocalBusinessSchema(baseUrl: string = 'https://cordovacomp.vercel.app') {
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: companyData.name,
-    image: 'https://cordovasuperstore.com/og-image.jpg',
-    '@id': 'https://cordovasuperstore.com',
-    url: 'https://cordovasuperstore.com',
+    image: `${baseUrl}/og-image.jpg`,
+    '@id': baseUrl,
+    url: baseUrl,
     telephone: `+${companyData.contact.whatsappAdmin1.number}`,
     priceRange: '$$',
     address: {
