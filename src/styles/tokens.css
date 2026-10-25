@@ -1,0 +1,15 @@
+:root {
+  --color-navy: #14355A;
+  --color-navy-dark: #0e243d;
+  --color-navy-light: #1d487b;
+  --color-primary: #1F66B5;
+  --color-primary-hover: #195496;
+  --color-primary-light: #e8f1fb;
+  --color-soft: #EEF6FD;
+  --color-ink: #2B2F36;
+  --color-ink-light: #4B5563;
+  --color-muted: #6B7280;
+  
+  --radius-card: 24px;
+}
+

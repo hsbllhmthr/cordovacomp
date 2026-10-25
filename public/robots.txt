@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cordovasuperstore.com/sitemap.xml
+
