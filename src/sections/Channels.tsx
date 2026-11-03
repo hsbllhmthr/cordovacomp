@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 export const Channels: React.FC = () => {
   return (
-    <section id="belanja" className="w-full min-h-[460px] h-auto lg:h-[460px] py-14 sm:py-16 lg:py-0 relative overflow-hidden bg-zinc-900 font-['Poppins'] flex flex-col justify-center">
+    <section id="belanja" className="w-full min-h-[460px] h-auto lg:h-[460px] py-14 sm:py-16 lg:py-0 relative overflow-hidden bg-[#10448f] font-['Poppins'] flex flex-col justify-center">
       {/* Background Image Sesuai Desain Figma */}
       <img
         src="/images/bg-outlet.png"
@@ -12,8 +12,11 @@ export const Channels: React.FC = () => {
         className="w-full h-full object-cover object-center absolute inset-0 pointer-events-none"
       />
 
-      {/* Gradien Hitam dari Kiri ke Kanan untuk Keterbacaan Teks Maksimal di Semua Layar */}
-      <div className="w-full h-full left-0 top-0 absolute bg-gradient-to-r from-black/95 via-black/85 sm:via-black/75 to-black/40 sm:to-transparent pointer-events-none" />
+      {/* Overlay Gradien #10448f dari Kiri ke Kanan untuk Keterbacaan Teks Maksimal di Semua Layar */}
+      <div className="w-full h-full left-0 top-0 absolute bg-gradient-to-r from-[#10448f] via-[#10448f]/90 sm:via-[#10448f]/80 to-[#10448f]/40 sm:to-transparent pointer-events-none" />
+
+      {/* Lapisan Hitam Tambahan untuk Kontras Maksimal Sesuai Sampul Artikel & Features */}
+      <div className="w-full h-full left-0 top-0 absolute bg-black/15 pointer-events-none" />
 
       {/* Container Konten Responsif untuk Android, iPhone, Tablet & Desktop */}
       <div className="w-full max-w-[1440px] mx-auto relative px-6 sm:px-12 lg:px-[104px]">
@@ -55,7 +58,7 @@ export const Channels: React.FC = () => {
               href="https://maps.google.com/?q=Cordova+Super+Store+Makassar"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-white hover:text-[#10448f] hover:border-white flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
               <span>Outlet Utama Cordova</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -66,7 +69,7 @@ export const Channels: React.FC = () => {
               href="https://shopee.co.id"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-56 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-56 h-12 rounded-[90px] border border-white hover:bg-white hover:text-[#10448f] hover:border-white flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
               <span>Marketplace Resmi</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -80,7 +83,7 @@ export const Channels: React.FC = () => {
               href="https://wa.me/6281234567890?text=Halo%20Cordova%20Super%20Store%2C%20saya%20ingin%20berbelanja"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-white hover:text-[#10448f] hover:border-white flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
               <span>Pemesanan WhatsApp</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -91,7 +94,7 @@ export const Channels: React.FC = () => {
               href="https://instagram.com/cordovasuperstore"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-44 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-44 h-12 rounded-[90px] border border-white hover:bg-white hover:text-[#10448f] hover:border-white flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
               <span>Media Social</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

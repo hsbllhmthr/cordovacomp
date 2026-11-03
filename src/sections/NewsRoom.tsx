@@ -82,7 +82,7 @@ export const NewsRoom: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-50px' }}
             transition={{ duration: 0.55 }}
-            className="sm:col-span-2 lg:col-span-2 lg:row-span-2 bg-black rounded-[10px] relative overflow-hidden flex flex-col justify-end p-6 sm:p-8 lg:p-10 group cursor-pointer transition-all duration-300 hover:brightness-105 min-h-[380px] lg:min-h-0"
+            className="sm:col-span-2 lg:col-span-2 lg:row-span-2 bg-[#10448f] rounded-[10px] relative overflow-hidden flex flex-col justify-end p-6 sm:p-8 lg:p-10 group cursor-pointer transition-all duration-300 hover:brightness-105 min-h-[380px] lg:min-h-0"
           >
             {/* Gambar Background Sesuai Tema Artikel */}
             <div className="absolute inset-0 z-0">
@@ -91,8 +91,10 @@ export const NewsRoom: React.FC = () => {
                 alt={featuredArticle.title}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
-              {/* Overlay Gradient Halus untuk Keterbacaan Teks Maksimal */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/75 to-black/30 group-hover:via-black/65 transition-colors duration-300" />
+              {/* Overlay Gradien #10448f dari Tengah ke Bawah Sesuai Bagian Features */}
+              <div className="w-full h-full left-0 bottom-0 absolute bg-gradient-to-b from-[#10448f]/0 via-[#10448f]/60 to-[#10448f] pointer-events-none" />
+              {/* Lapisan Hitam Tambahan untuk Kontras Maksimal */}
+              <div className="w-full h-full left-0 top-0 absolute bg-black/20 group-hover:bg-black/10 transition-colors pointer-events-none" />
             </div>
 
             {/* Konten Teks Kartu Utama */}
@@ -118,7 +120,7 @@ export const NewsRoom: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.5, delay: index * 0.08 }}
-              className="col-span-1 bg-black rounded-[10px] relative overflow-hidden flex flex-col justify-end p-5 sm:p-6 group cursor-pointer transition-all duration-300 hover:brightness-105 h-[254px]"
+              className="col-span-1 bg-[#10448f] rounded-[10px] relative overflow-hidden flex flex-col justify-end p-5 sm:p-6 group cursor-pointer transition-all duration-300 hover:brightness-105 h-[254px]"
             >
               {/* Gambar Background Sesuai Tema Artikel */}
               <div className="absolute inset-0 z-0">
@@ -127,8 +129,10 @@ export const NewsRoom: React.FC = () => {
                   alt={article.title}
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
-                {/* Overlay Gradient Halus */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/30 group-hover:via-black/70 transition-colors duration-300" />
+                {/* Overlay Gradien #10448f dari Tengah ke Bawah Sesuai Bagian Features */}
+                <div className="w-full h-full left-0 bottom-0 absolute bg-gradient-to-b from-[#10448f]/0 via-[#10448f]/60 to-[#10448f] pointer-events-none" />
+                {/* Lapisan Hitam Tambahan untuk Kontras Maksimal */}
+                <div className="w-full h-full left-0 top-0 absolute bg-black/20 group-hover:bg-black/10 transition-colors pointer-events-none" />
               </div>
 
               {/* Konten Teks Kartu */}
