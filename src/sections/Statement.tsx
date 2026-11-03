@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const Statement: React.FC = () => {
   return (
-    <section id="tentang" className="w-full min-h-[320px] sm:min-h-[420px] lg:h-[520px] relative bg-black font-['Poppins'] overflow-hidden flex flex-col justify-center lg:justify-start">
+    <section id="tentang" className="w-full min-h-[320px] sm:min-h-[420px] lg:h-[520px] relative bg-[#10448f] font-['Poppins'] overflow-hidden flex flex-col justify-center lg:justify-start">
       {/* Container 1440px Responsif */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -14,8 +14,8 @@ export const Statement: React.FC = () => {
       >
         {/* Label Tagline Kategori */}
         <div className="mb-3 sm:mb-4 justify-start">
-          <span className="text-zinc-400 text-sm sm:text-lg lg:text-xl font-normal font-['Poppins']">One Stop </span>
-          <span className="text-zinc-400 text-sm sm:text-lg lg:text-xl font-semibold font-['Poppins']">Islamic Store Makassar</span>
+          <span className="text-white/80 text-sm sm:text-lg lg:text-xl font-normal font-['Poppins']">One Stop </span>
+          <span className="text-white text-sm sm:text-lg lg:text-xl font-semibold font-['Poppins']">Islamic Store Makassar</span>
         </div>
 
         {/* Teks Pernyataan Utama */}

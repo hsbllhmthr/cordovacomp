@@ -49,7 +49,7 @@ export const About: React.FC = () => {
             {/* Tombol Baca Lebih Lanjut */}
             <a
               href="#tentang"
-              className="w-52 h-12 rounded-[90px] border border-black hover:bg-black hover:text-white flex items-center justify-center gap-3 text-black text-base font-normal transition-all active:scale-95 cursor-pointer group shrink-0"
+              className="w-52 h-12 rounded-[90px] border border-black hover:bg-[#10448f] hover:border-[#10448f] hover:text-white flex items-center justify-center gap-3 text-black text-base font-normal transition-all active:scale-95 cursor-pointer group shrink-0"
             >
               <span>Baca lebih lanjut</span>
               <ArrowRight size={18} className="transform group-hover:translate-x-1 transition-transform" />
@@ -74,7 +74,7 @@ export const About: React.FC = () => {
             <div className="text-black text-3xl sm:text-4xl lg:text-[42px] xl:text-[46px] font-normal leading-tight tracking-tight whitespace-nowrap">
               25+ Tahun
             </div>
-            <p className="text-neutral-400 text-sm sm:text-base font-normal">
+            <p className="text-neutral-400 text-xs sm:text-sm font-normal leading-relaxed">
               Sejak 1998 di Kota Makassar
             </p>
           </motion.div>
@@ -91,8 +91,8 @@ export const About: React.FC = () => {
             <div className="text-black text-3xl sm:text-4xl lg:text-[42px] xl:text-[46px] font-normal leading-tight tracking-tight whitespace-nowrap">
               8+ Kategori
             </div>
-            <p className="text-neutral-400 text-sm sm:text-base font-normal">
-              Koleksi kategori terlengkap
+            <p className="text-neutral-400 text-xs sm:text-sm font-normal leading-relaxed">
+              Al-Qur&apos;an, Buku Islami, Kurma, Kebutuhan Ibadah, Fashion Muslim &amp; Muslimah, Perlengkapan Haji &amp; Umrah, Oleh-Oleh Haji dan Umrah, Herbal
             </p>
           </motion.div>
 
@@ -108,7 +108,7 @@ export const About: React.FC = () => {
             <div className="text-black text-3xl sm:text-4xl lg:text-[42px] xl:text-[46px] font-normal leading-tight tracking-tight whitespace-nowrap">
               100% Asli
             </div>
-            <p className="text-neutral-400 text-sm sm:text-base font-normal">
+            <p className="text-neutral-400 text-xs sm:text-sm font-normal leading-relaxed">
               Amanah &amp; terpercaya
             </p>
           </motion.div>

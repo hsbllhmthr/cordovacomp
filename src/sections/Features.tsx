@@ -20,7 +20,7 @@ const featuresData: FeatureCardProps[] = [
   },
   {
     tag: 'MUDAH',
-    title: 'Belanja leluasa dan pesan secara praktis melalui whatsapp',
+    title: 'Belanja leluasa dan pesan secara praktis melalui WhatsApp',
     image: '/images/features/feature-2.png',
     objectPosition: 'object-center',
     href: 'https://wa.me/6281234567890?text=Halo%20Cordova%20Super%20Store%2C%20saya%20ingin%20belanja',
@@ -43,7 +43,7 @@ const featuresData: FeatureCardProps[] = [
 
 export const Features: React.FC = () => {
   return (
-    <section id="produk" className="w-full bg-black font-['Poppins'] overflow-hidden">
+    <section id="produk" className="w-full bg-[#10448f] font-['Poppins'] overflow-hidden">
       {/* 4 Kolom Full Width Edge-to-Edge: 1 Kolom di HP, 2 Kolom di Tablet, 4 Kolom di Desktop */}
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {featuresData.map((item, index) => (
@@ -65,8 +65,8 @@ export const Features: React.FC = () => {
               className={`w-full h-full object-cover ${item.objectPosition || 'object-center'} absolute inset-0 transform group-hover:scale-105 transition-transform duration-700 ease-out`}
             />
 
-            {/* Overlay Gradien Hitam dari Tengah ke Bawah */}
-            <div className="w-full h-[384px] left-0 bottom-0 absolute bg-gradient-to-b from-black/0 via-black/60 to-black pointer-events-none" />
+            {/* Overlay Gradien #10448f dari Tengah ke Bawah */}
+            <div className="w-full h-[384px] left-0 bottom-0 absolute bg-gradient-to-b from-[#10448f]/0 via-[#10448f]/60 to-[#10448f] pointer-events-none" />
 
             {/* Lapisan Hitam Tambahan untuk Kontras Maksimal */}
             <div className="w-full h-full left-0 top-0 absolute bg-black/20 group-hover:bg-black/10 transition-colors pointer-events-none" />
@@ -84,7 +84,7 @@ export const Features: React.FC = () => {
               </h3>
 
               {/* Tombol Outline Lingkaran dengan Icon Panah */}
-              <div className="w-11 h-11 rounded-full border border-white/80 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black group-hover:border-white transition-all duration-300">
+              <div className="w-11 h-11 rounded-full border border-white/80 flex items-center justify-center text-white group-hover:bg-white group-hover:text-[#10448f] group-hover:border-white transition-all duration-300">
                 <ArrowUpRight size={18} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </div>
             </div>

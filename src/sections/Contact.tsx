@@ -42,9 +42,9 @@ export const Contact: React.FC = () => {
             MARI TERHUBUNG DENGAN CORDOVA
           </span>
           <h2 className="text-blue-900 text-2xl sm:text-3xl lg:text-[32px] font-medium leading-snug sm:leading-[44px] max-w-[840px]">
-            Kunjungi gerai kami di makassar atau<br className="hidden sm:block" />
+            Kunjungi toko kami di makassar atau<br className="hidden sm:block" />
             konsultasi kebutuhan ibadah anda melalui<br className="hidden sm:block" />
-            layanan Whatsapp dan media sosial
+            layanan WhatsApp dan media sosial
           </h2>
         </motion.div>
 
@@ -54,10 +54,10 @@ export const Contact: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 xl:gap-12 pb-10 sm:pb-12">
             {/* Kolom Alamat */}
             <div className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 xl:gap-12">
-              <span className="text-black text-base font-semibold w-auto sm:w-48 shrink-0 whitespace-nowrap">
+              <span className="text-black text-base font-normal w-auto sm:w-48 shrink-0 whitespace-nowrap">
                 Alamat
               </span>
-              <p className="text-black text-base font-normal leading-relaxed text-black/85">
+              <p className="text-black text-base font-semibold leading-relaxed">
                 Jl. Abdullah Daeng Sirua,<br />
                 Batua, Kec. Manggala, Kota<br />
                 Makassar, Sulawesi Selatan<br />
@@ -67,10 +67,10 @@ export const Contact: React.FC = () => {
 
             {/* Kolom Kontak WhatsApp */}
             <div className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 xl:gap-12">
-              <span className="text-black text-base font-semibold w-auto sm:w-48 shrink-0 whitespace-nowrap">
-                Kontak Whatsapp
+              <span className="text-black text-base font-normal w-auto sm:w-48 shrink-0 whitespace-nowrap">
+                Kontak WhatsApp
               </span>
-              <div className="text-black text-base font-normal leading-relaxed text-black/85 flex flex-col gap-1">
+              <div className="text-black text-base font-semibold leading-relaxed flex flex-col gap-1">
                 <a
                   href="https://wa.me/6285243147030"
                   target="_blank"
@@ -97,10 +97,10 @@ export const Contact: React.FC = () => {
           {/* Baris 2: Social Media */}
           <div className="pt-10 sm:pt-12">
             <div className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-8 xl:gap-12">
-              <span className="text-black text-base font-semibold w-auto sm:w-48 shrink-0 whitespace-nowrap">
+              <span className="text-black text-base font-normal w-auto sm:w-48 shrink-0 whitespace-nowrap">
                 Social Media
               </span>
-              <div className="text-black text-base font-normal leading-relaxed text-black/85 flex flex-col sm:flex-row sm:flex-wrap sm:gap-6 lg:gap-8">
+              <div className="text-black text-base font-semibold leading-relaxed flex flex-col sm:flex-row sm:flex-wrap sm:gap-6 lg:gap-8">
                 <a
                   href="https://instagram.com"
                   target="_blank"

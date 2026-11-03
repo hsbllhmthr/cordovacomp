@@ -55,7 +55,7 @@ export const Channels: React.FC = () => {
               href="https://maps.google.com/?q=Cordova+Super+Store+Makassar"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-white hover:text-black flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
               <span>Outlet Utama Cordova</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -66,23 +66,23 @@ export const Channels: React.FC = () => {
               href="https://shopee.co.id"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-56 h-12 rounded-[90px] border border-white hover:bg-white hover:text-black flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-56 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
               <span>Marketplace Resmi</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </a>
           </div>
 
-          {/* Baris 2: Pemesanan Whatsapp & Media Social */}
+          {/* Baris 2: Pemesanan WhatsApp & Media Social */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            {/* Tombol 3: Pemesanan Whatsapp */}
+            {/* Tombol 3: Pemesanan WhatsApp */}
             <a
               href="https://wa.me/6281234567890?text=Halo%20Cordova%20Super%20Store%2C%20saya%20ingin%20berbelanja"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-white hover:text-black flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-64 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
-              <span>Pemesanan Whatsapp</span>
+              <span>Pemesanan WhatsApp</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </a>
 
@@ -91,7 +91,7 @@ export const Channels: React.FC = () => {
               href="https://instagram.com/cordovasuperstore"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-44 h-12 rounded-[90px] border border-white hover:bg-white hover:text-black flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
+              className="w-full sm:w-44 h-12 rounded-[90px] border border-white hover:bg-[#10448f] hover:border-[#10448f] flex items-center justify-between px-5 text-white text-base font-normal transition-all active:scale-95 group cursor-pointer"
             >
               <span>Media Social</span>
               <ArrowUpRight size={16} className="transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

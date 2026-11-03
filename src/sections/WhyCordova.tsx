@@ -18,8 +18,8 @@ const tabData: Record<TabType, TabContent> = {
   komitmen: {
     title: (
       <>
-        <span className="block">Enam keunggulan utama yang menjadikan</span>
-        <span className="block">Cordova Super Store pilihan terdepan muslim</span>
+        <span className="lg:block">Enam keunggulan utama yang menjadikan </span>
+        <span className="lg:block">Cordova Super Store pilihan terdepan Muslim</span>
       </>
     ),
     items: [
@@ -58,9 +58,9 @@ const tabData: Record<TabType, TabContent> = {
   kemitraan: {
     title: (
       <>
-        <span className="block">Tumbuh bersama dalam menyebarkan</span>
-        <span className="block">manfaat & nilai kebaikan bagi umat</span>
-        <span className="block">melalui ekosistem Cordova</span>
+        <span className="lg:block">Tumbuh bersama dalam menyebarkan </span>
+        <span className="lg:block">manfaat & nilai kebaikan bagi umat </span>
+        <span className="lg:block">melalui ekosistem Cordova</span>
       </>
     ),
     items: [
@@ -93,9 +93,9 @@ const tabData: Record<TabType, TabContent> = {
   kilasbalik: {
     title: (
       <>
-        <span className="block">Tumbuh dari toko literatur islami sederhana</span>
-        <span className="block">hingga kini menjadi destinasi one-stop store</span>
-        <span className="block">pilihan keluarga muslim</span>
+        <span className="lg:block">Tumbuh dari toko literatur Islami sederhana </span>
+        <span className="lg:block">hingga kini menjadi destinasi one-stop store </span>
+        <span className="lg:block">pilihan keluarga Muslim</span>
       </>
     ),
     items: [
@@ -229,7 +229,7 @@ export const WhyCordova: React.FC = () => {
               transition={{ duration: 0.35, ease: 'easeOut' }}
             >
               {/* Judul Utama Tab */}
-              <h2 className="text-blue-900 text-xl sm:text-2xl lg:text-[30px] font-medium leading-snug sm:leading-[38px] lg:leading-[44px] mb-5 sm:mb-6 lg:mb-10">
+              <h2 className="text-blue-900 text-xl sm:text-2xl lg:text-[30px] font-medium leading-snug sm:leading-[38px] lg:leading-[44px] mb-5 sm:mb-6 lg:mb-10 text-balance">
                 {currentTab.title}
               </h2>
 

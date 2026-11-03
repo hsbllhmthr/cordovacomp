@@ -28,11 +28,11 @@ export const Hero: React.FC = () => {
       {/* Vignette Atas Lembut */}
       <div className="w-full h-28 left-0 top-0 absolute bg-gradient-to-b from-black/40 to-transparent pointer-events-none z-[2]" />
 
-      {/* Gradien Bawah Lembut Menyatu Sempurna ke Hitam Pekat */}
+      {/* Gradien Bawah Lembut Menyatu Sempurna ke #10448f */}
       <div
         className="w-full h-[75%] sm:h-[68%] min-h-[380px] left-0 bottom-0 absolute pointer-events-none z-[2]"
         style={{
-          background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.18) 25%, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.88) 82%, #000000 96%, #000000 100%)',
+          background: 'linear-gradient(to bottom, rgba(16, 68, 143, 0) 0%, rgba(16, 68, 143, 0.18) 25%, rgba(16, 68, 143, 0.55) 55%, rgba(16, 68, 143, 0.88) 82%, #10448f 96%, #10448f 100%)',
         }}
       />
 
@@ -57,14 +57,14 @@ export const Hero: React.FC = () => {
 
           {/* Tombol Aksi Responsif (Center di Mobile, Baris di Tablet & Desktop) */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-1 w-full sm:w-auto">
-            {/* Tombol Chat Whatsapp Kami */}
+            {/* Tombol Chat WhatsApp Kami */}
             <a
               href="https://wa.me/6281234567890?text=Halo%20Cordova%20Super%20Store%2C%20saya%20ingin%20bertanya%20mengenai%20produk"
               target="_blank"
               rel="noopener noreferrer"
               className="h-12 px-7 bg-green-500 hover:bg-green-600 rounded-[50px] flex items-center justify-center text-white text-sm font-semibold transition-all shadow-md active:scale-95 cursor-pointer text-center"
             >
-              Chat Whatsapp Kami
+              Chat WhatsApp Kami
             </a>
 
             {/* Tombol Lihat Kategori Produk dengan Icon Panah Kanan */}

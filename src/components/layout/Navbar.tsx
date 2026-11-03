@@ -170,12 +170,12 @@ export const Navbar: React.FC = () => {
               rel="noopener noreferrer"
               className={`h-9 px-4 rounded-[50px] border flex items-center justify-center gap-2 text-xs font-semibold whitespace-nowrap transition-all active:scale-95 cursor-pointer focus:outline-none ${
                 isScrolled
-                  ? 'border-neutral-900 text-neutral-900 hover:bg-neutral-900 hover:text-white focus:ring-2 focus:ring-neutral-400'
+                  ? 'border-[#dcae53] bg-[#dcae53] text-white hover:bg-[#c89c42] hover:border-[#c89c42] shadow-sm focus:ring-2 focus:ring-[#dcae53]/50'
                   : 'border-white text-white hover:bg-white/15 focus:ring-2 focus:ring-white/40'
               }`}
             >
               <WhatsAppIcon size={15} />
-              <span className="leading-none whitespace-nowrap">Chat Whatsapp</span>
+              <span className="leading-none whitespace-nowrap">Chat WhatsApp</span>
             </a>
           </div>
 
@@ -256,7 +256,7 @@ export const Navbar: React.FC = () => {
                 className="w-full h-12 rounded-[50px] bg-green-500 hover:bg-green-600 text-white flex items-center justify-center text-sm font-semibold gap-2.5 transition-all shadow-lg active:scale-95 cursor-pointer"
               >
                 <WhatsAppIcon size={18} />
-                <span>Chat Whatsapp Admin</span>
+                <span>Chat WhatsApp Admin</span>
               </a>
             </div>
           </motion.div>
