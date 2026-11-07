@@ -11,22 +11,22 @@ const categoryItems: CategoryItem[] = [
   {
     id: 1,
     title: "Al-Qur'an",
-    image: '/images/quran.png',
+    image: '/images/alquran.png',
   },
   {
     id: 2,
     title: 'Buku Islam',
-    image: '/images/buku-islam.png',
+    image: '/images/buku-islami.png',
   },
   {
     id: 3,
     title: 'Perlengkapan Ibadah',
-    image: '/images/perlengkapan-ibadah.png',
+    image: '/images/kebutuhan-ibadah.png',
   },
   {
     id: 4,
     title: 'Fashion Muslim',
-    image: '/images/fashion-muslim.png',
+    image: '/images/fashion.png',
   },
   {
     id: 5,
@@ -36,10 +36,15 @@ const categoryItems: CategoryItem[] = [
   {
     id: 6,
     title: 'Oleh-oleh Haji & Umrah',
-    image: '/images/oleh-oleh-haji.png',
+    image: '/images/paket-oleh.png',
   },
   {
     id: 7,
+    title: 'Aneka Kurma',
+    image: '/images/kurma.png',
+  },
+  {
+    id: 8,
     title: 'Herbal & Thibbun Nabawi',
     image: '/images/herbal.png',
   },
@@ -67,14 +72,14 @@ export const Categories: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-blue-900 text-2xl sm:text-3xl font-medium leading-snug sm:leading-10 max-w-2xl mb-10 sm:mb-12 lg:mb-14"
+          className="text-[#10448f] text-2xl sm:text-3xl font-medium leading-snug sm:leading-10 max-w-2xl mb-10 sm:mb-12 lg:mb-14"
         >
           Temukan aneka pilihan produk <br className="hidden sm:inline" />
           ibadah, edukasi, dan nutrisi untuk <br className="hidden sm:inline" />
           keseharian anda.
         </motion.h2>
 
-        {/* 7 Card Grid Kategori Produk (Baris 1: 4 kartu seimbang, Baris 2: 3 kartu) */}
+        {/* 8 Card Grid Kategori Produk (Baris 1: 4 kartu seimbang, Baris 2: 4 kartu seimbang) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-x-[18px] lg:gap-y-[20px]">
           {categoryItems.map((item, index) => (
             <motion.div
@@ -83,18 +88,18 @@ export const Categories: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.5, delay: index * 0.07, ease: [0.21, 0.47, 0.32, 0.98] }}
-              className="relative w-full h-[164px] rounded-[10px] border border-gray-200 overflow-hidden bg-white group cursor-pointer shadow-none"
+              className="relative w-full h-[164px] rounded-[10px] border border-gray-200 overflow-hidden bg-white group cursor-pointer shadow-none flex items-center justify-center"
             >
               {/* Gambar Kategori (Zoom & Efek Buram saat Hover) */}
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-full object-cover transform group-hover:scale-105 group-hover:blur-[2.5px] transition-all duration-300 ease-out"
+                className="w-full h-full object-contain scale-[1.22] transform group-hover:scale-[1.3] group-hover:blur-[2.5px] transition-all duration-300 ease-out"
               />
 
               {/* Overlay Putih & Judul Kategori Muncul saat Hover */}
               <div className="absolute inset-0 bg-white/0 group-hover:bg-white/85 transition-all duration-300 ease-out flex items-center justify-center p-4 text-center">
-                <span className="text-blue-900 text-base sm:text-lg font-semibold tracking-wide opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-out">
+                <span className="text-[#10448f] text-base sm:text-lg font-semibold tracking-wide opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-out">
                   {item.title}
                 </span>
               </div>

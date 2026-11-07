@@ -141,9 +141,15 @@ export const Footer: React.FC = () => {
         {/* Garis Pembatas Horisontal (w-[1146px] h-px bg-stone-300) */}
         <div className="w-full max-w-[1146px] h-px bg-stone-300 mb-6 lg:mb-8" />
 
-        {/* Copyright */}
-        <div className="w-full max-w-[1146px] flex items-center justify-between text-black text-xs font-normal leading-5">
+        {/* Copyright & Admin Portal Link */}
+        <div className="w-full max-w-[1146px] flex flex-col sm:flex-row items-center justify-between gap-2 text-black text-xs font-normal leading-5">
           <p>© 2026 Cordova Super Store. All Right Reserved</p>
+          <a
+            href="#admin"
+            className="text-stone-400 hover:text-blue-900 transition-colors flex items-center gap-1.5"
+          >
+            <span>Portal Admin</span>
+          </a>
         </div>
       </div>
     </footer>
