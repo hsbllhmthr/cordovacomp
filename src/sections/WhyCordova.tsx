@@ -18,7 +18,7 @@ const tabData: Record<TabType, TabContent> = {
   komitmen: {
     title: (
       <>
-        <span className="lg:block">Enam keunggulan utama yang menjadikan </span>
+        <span className="lg:block">5 keunggulan utama yang menjadikan </span>
         <span className="lg:block">Cordova Super Store pilihan terdepan Muslim</span>
       </>
     ),

@@ -55,8 +55,8 @@ export const Audience: React.FC = () => {
           className="text-blue-900 text-2xl sm:text-3xl font-medium leading-snug sm:leading-10 max-w-2xl mb-8 sm:mb-12 lg:mb-14"
         >
           Cordova Super Store dirancang untuk <br className="hidden sm:inline" />
-          memenuhi kebutuhan berbagai kalangan <br className="hidden sm:inline" />
-          umat dengan pendekatan personal
+          memenuhi kebutuhan ibadah keluarga <br className="hidden sm:inline" />
+          muslim dengan pendekatan personal
         </motion.h2>
 
         {/* Daftar 4 Segmen Pelanggan dengan Garis Pembatas Horisontal */}
