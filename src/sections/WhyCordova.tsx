@@ -27,7 +27,7 @@ const tabData: Record<TabType, TabContent> = {
         id: 1,
         title: 'Berpengalaman sejak 1998',
         description:
-          'Lebih dari 25 tahun konsisten melayani ummat dan keluarga muslim di makassar dan kawasan indonesia timur',
+          'Lebih dari 25 tahun konsisten melayani ummat dan keluarga muslim di Makassar dan kawasan indonesia timur',
       },
       {
         id: 2,
@@ -103,7 +103,7 @@ const tabData: Record<TabType, TabContent> = {
         id: 'kb1',
         title: '1998 Awal Langkah di Makassar',
         description:
-          'Cordova didirikan dengan semangat menyediakan literatur islam bermutu dan mushaf Al-Qur’an bagi masyarakat makassar.',
+          'Cordova didirikan dengan semangat menyediakan literatur islam bermutu dan mushaf Al-Qur’an bagi masyarakat Makassar.',
       },
       {
         id: 'kb2',

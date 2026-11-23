@@ -42,7 +42,7 @@ export const Contact: React.FC = () => {
             MARI TERHUBUNG DENGAN CORDOVA
           </span>
           <h2 className="text-blue-900 text-2xl sm:text-3xl lg:text-[32px] font-medium leading-snug sm:leading-[44px] max-w-[840px]">
-            Kunjungi toko kami di makassar atau<br className="hidden sm:block" />
+            Kunjungi toko kami di Makassar atau<br className="hidden sm:block" />
             konsultasi kebutuhan ibadah anda melalui<br className="hidden sm:block" />
             layanan WhatsApp dan media sosial
           </h2>
@@ -57,12 +57,14 @@ export const Contact: React.FC = () => {
               <span className="text-black text-base font-normal w-auto sm:w-48 shrink-0 whitespace-nowrap">
                 Alamat
               </span>
-              <p className="text-black text-base font-semibold leading-relaxed">
-                Jl. Abdullah Daeng Sirua,<br />
-                Batua, Kec. Manggala, Kota<br />
-                Makassar, Sulawesi Selatan<br />
-                90233
-              </p>
+              <a
+                href="https://maps.google.com/?q=Cordova+Super+Store+Makassar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black text-base font-semibold leading-relaxed hover:text-blue-900 transition-colors"
+              >
+                Jl. Abdullah Dg. Sirua No. 431 Makassar
+              </a>
             </div>
 
             {/* Kolom Kontak WhatsApp */}

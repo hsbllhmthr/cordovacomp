@@ -109,28 +109,54 @@ export const Footer: React.FC = () => {
               <h3 className="text-black text-sm font-semibold leading-5 mb-4 sm:mb-6">
                 Outlet Makassar
               </h3>
-              <div className="flex flex-col gap-4 text-black text-sm font-normal leading-5">
-                <p className="leading-relaxed">
-                  Jl. Abdullah Daeng Sirua,<br />
-                  Batua, Kec. Manggala, Kota<br />
-                  Makassar, Sulawesi Selatan
-                </p>
-                <div className="flex flex-col gap-1.5 pt-1">
+              <div className="flex flex-col text-sm max-w-[280px]">
+                <a
+                  href="https://maps.google.com/?q=Cordova+Super+Store+Makassar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-700 hover:text-blue-900 leading-6 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-900 focus-visible:ring-offset-2 rounded"
+                >
+                  Jl. Abdullah Dg. Sirua No. 431 Makassar
+                </a>
+
+                <div className="mt-3.5 pt-3.5 border-t border-stone-200 flex flex-col gap-2">
                   <a
                     href="https://wa.me/6285243147030"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-blue-900 transition-colors"
+                    className="group inline-flex items-baseline gap-2 leading-6 text-black hover:text-blue-900 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-900 focus-visible:ring-offset-2 rounded"
                   >
-                    Admin 1 : 0852 4314 7030
+                    <span className="w-16 shrink-0 whitespace-nowrap text-neutral-600 group-hover:text-blue-900 transition-colors">
+                      Admin 1
+                    </span>
+                    <span
+                      className="text-neutral-500 group-hover:text-blue-900 transition-colors"
+                      aria-hidden="true"
+                    >
+                      :
+                    </span>
+                    <span className="font-medium tabular-nums whitespace-nowrap">
+                      0852 4314 7030
+                    </span>
                   </a>
                   <a
                     href="https://wa.me/6289560190406"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-blue-900 transition-colors"
+                    className="group inline-flex items-baseline gap-2 leading-6 text-black hover:text-blue-900 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-900 focus-visible:ring-offset-2 rounded"
                   >
-                    Admin 2 : 0895 6019 0406
+                    <span className="w-16 shrink-0 whitespace-nowrap text-neutral-600 group-hover:text-blue-900 transition-colors">
+                      Admin 2
+                    </span>
+                    <span
+                      className="text-neutral-500 group-hover:text-blue-900 transition-colors"
+                      aria-hidden="true"
+                    >
+                      :
+                    </span>
+                    <span className="font-medium tabular-nums whitespace-nowrap">
+                      0895 6019 0406
+                    </span>
                   </a>
                 </div>
               </div>

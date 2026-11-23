@@ -14,7 +14,7 @@ export const companyData: CompanyInfo = {
     ],
   },
   contact: {
-    address: 'Jl. Perintis Kemerdekaan (atau outlet utama Cordova Super Store)',
+    address: 'Jl. Abdullah Dg. Sirua No. 431 Makassar',
     cityStateZip: 'Makassar, Sulawesi Selatan, Indonesia',
     whatsappAdmin1: {
       number: import.meta.env.VITE_WA_ADMIN_1 || '6281234567890',
